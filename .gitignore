@@ -1,0 +1,108 @@
+# ==========================================
+# 1. Environment & Sensitive Data (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+*.venv
+*.pem
+*.key
+*.cert
+*.secret
+
+# ==========================================
+# 2. Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+*~
+.fuse_hidden*
+.trash/
+
+# ==========================================
+# 3. Code Editors & IDEs
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+*.code-workspace
+
+# JetBrains (IntelliJ, WebStorm, PyCharm)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Visual Studio / MonoDevelop
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+MonoAndroid/
+MonoTouch/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# 4. Universal Build & Package Artifacts
+# ==========================================
+# Node / JavaScript
+node_modules/
+/dist/
+/build/
+/out/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+
+# Java / Maven / Gradle
+target/
+.gradle/
+build/
+!.gradle/wrapper/gradle-wrapper.jar
+
+# C++ / C
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
